@@ -15,14 +15,32 @@
 
 </div>
 
+## 📋 <a name="table">Table of Contents</a>
 
-******Project Explanation:
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 🔗 [Links](#links)
+
+## <a name="introduction">🤖 Introduction</a>
+
 SkillSwap is a web application where users can offer their expertise in a particular skill (e.g., guitar lessons, coding, photography) in exchange for learning a skill from others (e.g., cooking, painting). This platform will allow users to create profiles, post their available skills, request skills they want to learn, and connect with other users for skill exchange. A rating and review system ensures the credibility and quality of the users' services.
 
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Vite
+- React.js
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB
 
 
+## <a name="features">🔋 Features</a>
 
-******Key Features:
+Key Features:
 1. User Authentication:
    - Users can sign up, log in, and create profiles.
    - Social login options using Google, Facebook, or GitHub.
