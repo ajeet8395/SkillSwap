@@ -18,7 +18,7 @@ const Login = () => {
             const response = await axios.post('http://localhost:5000/api/auth/login', { email, password });
             if (response.data && response.data.token) {
                 localStorage.setItem('token', response.data.token);
-                console.log('Stored token:', localStorage.getItem('token'));
+                // console.log('Stored token:', localStorage.getItem('token'));
                 navigate('/profile');
             } else {
                 setError('Invalid response from server');
@@ -30,7 +30,7 @@ const Login = () => {
     };
 
     return (
-        <div className="flex sm:grid grid-cols-5 items-center min-h-screen bg-[#723737]">
+        <div className="flex sm:grid grid-cols-5 items-center min-h-screen bg-primary">
             <div className='col-span-2 hidden sm:block relative group'>
                 <img
                     src='./wel.png'
@@ -73,7 +73,7 @@ const Login = () => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-[#723737] text-white py-2 rounded-lg hover:bg-[#723737d6] focus:outline-none"
+                            className="w-full bg-primary text-white py-2 rounded-lg hover:bg-primary-light focus:outline-none"
                         >
                             Login
                         </button>

@@ -16,7 +16,7 @@ const isAuthenticated = () => {
         const currentTime = Date.now() / 1000;
 
         if (decodedToken.exp > currentTime) {
-            console.log('Token is valid');
+            // console.log('Token is valid');
             return true;
         } else {
             // console.log('Token expired, clearing it from localStorage');
