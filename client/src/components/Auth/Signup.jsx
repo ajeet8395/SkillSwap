@@ -143,7 +143,7 @@ const Signup = () => {
                             />
                         </div>
 
-                        <button type="submit" className="w-full bg-[#723737] text-white py-2 rounded-lg hover:bg-[#723737d6] focus:outline-none">Sign Up</button>
+                        <button type="submit" className="w-full bg-primary text-white py-2 rounded-lg hover:bg-primary-light focus:outline-none">Sign Up</button>
                     </form>
                     <p className="mt-4 text-center">
                         Already have an account? <a href="/" className="text-[#381c1c] font-semibold hover:underline">Log in</a>
